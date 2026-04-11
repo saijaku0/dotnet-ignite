@@ -1,0 +1,19 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    
+    <Version>1.0.1</Version>
+    <Company>DotnetIgnite</Company>
+    <Authors>Saijaku</Authors>
+
+    <ArtifactsPath>$(MSBuildThisFileDirectory).artifacts</ArtifactsPath>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <UseArtifactsOutput>true</UseArtifactsOutput>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+</Project>
