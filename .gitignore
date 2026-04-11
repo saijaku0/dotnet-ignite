@@ -36,6 +36,8 @@ obj/x64/
 [Rr]eleases/x86/
 bin/x86/
 obj/x86/
+bin/
+obj/
 
 [Ww][Ii][Nn]32/
 [Aa][Rr][Mm]/
@@ -81,6 +83,7 @@ dlldata.c
 
 # Benchmark Results
 BenchmarkDotNet.Artifacts/
+.artifacts
 
 # .NET Core
 project.lock.json
@@ -426,3 +429,17 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# 1. Local Playground / Samples (INFRA-3)
+samples/
+playground/
+
+# 2. JetBrains Rider / ReSharper
+.idea/
+
+# 3. macOS / Linux System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*

@@ -1,4 +1,4 @@
-﻿namespace DotnetIgnite.Tests;
+namespace DotnetIgnite.Tests;
 
 public class UnitTest1
 {
