@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DotnetIgnite/DotnetIgnite.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DotnetIgnite.Tests/DotnetIgnite.Tests.csproj" />
+  </Folder>
+</Solution>
