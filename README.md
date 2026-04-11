@@ -4,7 +4,7 @@
 
 ![Build](https://img.shields.io/github/actions/workflow/status/saijaku0/dotnet-ignite/build.yml?branch=main&style=flat-square)
 ![NuGet](https://img.shields.io/nuget/v/dotnet-ignite?style=flat-square)
-![License](https://img.shields.io/github/license/saijaku0/dotnet-ignite?style=flat-square)
+![License](https://img.shields.io/github/license/saijaku0/dotnet-ignite?style=flat-square&v=1)
 
 ---
 
