@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples/Playground/Playground.csproj" />
+  </Folder>
   <Folder Name="/SolutionElement/">
     <File Path="Directory.Build.props" />
   </Folder>

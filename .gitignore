@@ -430,10 +430,6 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-# 1. Local Playground / Samples (INFRA-3)
-samples/
-playground/
-
 # 2. JetBrains Rider / ReSharper
 .idea/
 
