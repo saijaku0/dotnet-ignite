@@ -11,7 +11,7 @@ namespace DotnetIgnite.Cli.Commands;
 /// </remarks>
 public class CliCommandFactory
 {
-	private static readonly Dictionary<string, string> _descriptions = new()
+    private static readonly Dictionary<string, string> _descriptions = new()
     {
         { "entity", "Add a new entity" },
         { "handler", "Add a new handler" },
