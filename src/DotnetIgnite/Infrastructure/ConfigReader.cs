@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using DotnetIgnite.Core.Abstractions;
 using DotnetIgnite.Core.Configuration;
 
@@ -13,7 +14,8 @@ public class ConfigReader(IFileSystem fileSystem) : IConfigReader
     {
         PropertyNameCaseInsensitive = true,
         PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
-        WriteIndented = true
+        WriteIndented = true,
+        Converters = { new JsonStringEnumConverter() }
     };
     public IgniteConfig LoadFromCurrentDirectory()
     {
